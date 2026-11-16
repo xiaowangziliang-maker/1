@@ -1,0 +1,17 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/U:$8Q_fyq|3O9sSXO_r">LEFT_DIR</variable><variable id=",**Yc-}@BA+f]iV8x+ML">RIGHT_DIR</variable><variable id="J4Rz`plJ[bGYE[FSYQzM">pulse</variable><variable id="i|5B*0.44Dd7%4yDD98Q">turn_way</variable><variable id="MWHt/0!Xz$D9f}YP)}K9">phase</variable><variable id="]F1BuXz?,wDM=%lEeNa5">phase_end</variable><variable id="vhyF_8#Qcj4=_,!0bzc3">running</variable><variable id="fh#@$O8C4eR#iiYF|*0z">base_left</variable><variable id="=Oka88*{Vkt![@xXJ`_p">base_right</variable><variable id="Jig8%chubgQKv?pT(9Za">calibrated</variable></variables><comment id="gIBZH/t/m0_`JOOQ(8VS" x="20" y="2546" w="480" h="120">
+完整版：on_forever 的 elif phase == 1 后有缩进代码；请全选替换旧代码。
+</comment><comment id="o8915iy@TDIDc6}WV.%_" x="545" y="2546" w="440" h="120">
+MakeCode Python (not standalone MicroPython)
+</comment><comment id="J^Hi+gJ~KoYCmwJWANNd" x="20" y="2711" w="400" h="120">
+Hardware: right motor M1, left motor M2;
+</comment><comment id="!iszLq]tn4^!6IKu[/4x" x="465" y="2711" w="430" h="120">
+sonar port 1 (candidate: Trig P1, Echo P2);
+</comment><comment id="x$vN@aQjo)25a*7Q#utp" x="20" y="2876" w="480" h="120">
+downward IR port 2 (candidate: left P13, right P12).
+</comment><comment id="ao4bQX]FSr1$N[s[K.`s" x="545" y="2876" w="480" h="120">
+First test with wheels OFF the ground, then on a wide flat floor.
+</comment><comment id="_lIvmp5MUpxke_CmxJOe" x="20" y="3041" w="480" h="120">
+A+B = calibrate ground while stopped; A = start; B = stop.
+</comment><comment id="lTxa!_I2[z8i:}AX:luu" x="545" y="3041" w="270" h="120">
+0 cruise, 1 retreat, 2 turn
+</comment></xml>
